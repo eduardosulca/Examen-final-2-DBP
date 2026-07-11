@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-ink;
+  }
+}
+
+@layer components {
+  .input {
+    @apply w-full rounded-md border border-edge bg-panel px-3 py-2.5 text-white outline-none focus:border-signal transition;
+  }
+}
